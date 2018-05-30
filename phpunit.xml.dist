@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Configuration for all tests with no extra logging -->
+<phpunit
+        bootstrap="vendor/autoload.php"
+        colors="true">
+    <php>
+        <ini name="allow_call_time_pass_reference" value="true"/>
+        <ini name="error_log" value="/dev/null"/>
+        <ini name="memory_limit" value="1G"/>
+    </php>
+    <testsuites>
+        <testsuite name="Full Run">
+            <directory>tests</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <whitelist processUncoveredFilesFromWhitelist="true">
+            <directory suffix=".php">src</directory>
+        </whitelist>
+    </filter>
+</phpunit>

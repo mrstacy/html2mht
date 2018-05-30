@@ -1,0 +1,13 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background-color: #757575;
+}
+
+b {
+	color: #FFFF00;
+	font-size: 30px;
+}

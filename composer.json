@@ -1,0 +1,22 @@
+{
+	"name" : "mrstacy/html2mht",
+	"description" : "Convert Html into MHT archive",
+	"minimum-stability" : "stable",
+	"license" : "proprietary",
+	"prefer-stable" : true,
+	"autoload" : {
+		"psr-4" : {
+			"MrStacy\\Html2Mht\\" : "src/"
+		}
+	},
+	"autoload-dev" : {
+		"psr-4" : {
+			"MrStacy\\Html2Mht\\Tests\\" : "tests/"
+		}
+	},
+	"require" : {
+	},
+	"require-dev" : {
+		"phpunit/phpunit" : "~7.1"
+	}
+}
