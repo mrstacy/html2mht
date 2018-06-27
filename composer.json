@@ -2,7 +2,11 @@
 	"name" : "mrstacy/html2mht",
 	"description" : "Convert Html into MHT archive",
 	"minimum-stability" : "stable",
-	"license" : "proprietary",
+	"license" : "MIT",
+	"authors": [
+		"name": "Stacy Robinson",
+		"email": "stacy@devdb.com"
+	],
 	"prefer-stable" : true,
 	"autoload" : {
 		"psr-4" : {
