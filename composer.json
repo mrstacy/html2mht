@@ -3,10 +3,10 @@
 	"description" : "Convert Html into MHT archive",
 	"minimum-stability" : "stable",
 	"license" : "MIT",
-	"authors": [
+	"authors": [{
 		"name": "Stacy Robinson",
 		"email": "stacy@devdb.com"
-	],
+	}],
 	"prefer-stable" : true,
 	"autoload" : {
 		"psr-4" : {
